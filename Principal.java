@@ -7,11 +7,13 @@ class Principal {
         System.out.println("Modelo: " + meuCarro1.modelo);
         System.out.println("Ano: " + meuCarro1.anoDeFabricacao);
 
+
         Proprietario proprietario1 = new Proprietario();
         proprietario1.nomeProprietario = "Marcelo";
         System.out.println("Nome: " + proprietario1.nomeProprietario);
         System.out.println();
 
+        
         Carro meuCarro2 = new Carro();
         meuCarro2.modelo = "Fusca";
         meuCarro2.anoDeFabricacao = 1979;
